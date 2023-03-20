@@ -1,0 +1,58 @@
+:root {
+    --pink: rgb(180, 43, 226);
+    --white: antiquewhite;
+}
+
+
+* {
+    background-color: #3f4040;
+}
+main {
+ 
+}
+
+
+.card {
+
+    width: 200px;
+    height: 200px;
+    /* Margin property */
+    margin: 20px;
+    /* Padding property */
+    padding: 20px;
+    /* Border property */
+    border: 3px dashed var(--white);
+    color: var(--pink);
+    position:absolute;
+}
+
+header {
+    color: var(--pink);
+}
+
+
+p {
+    color: var(--white);
+}
+
+.code {
+    position: relative;
+    color: var(--white);
+    background-color: var(--pink);
+
+}
+
+.content {
+    color: var(--pink)
+}
+
+pre {
+    color: var(--white);
+    background-color: var(--pink);
+    position: relative;
+   align-content: left;
+}
+
+h2 {
+    border: 2px solid var(--white);
+}
